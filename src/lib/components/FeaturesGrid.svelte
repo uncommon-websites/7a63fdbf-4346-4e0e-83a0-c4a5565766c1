@@ -6,124 +6,143 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                AI That Learns How Your<br />Firm Thinks and Works
+                Built for Pharma Marketing<br />Leaders Who Need Results
             </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Integrations -->
+            <!-- Privacy-First Architecture -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Integrations</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Privacy-First Architecture</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="grid grid-cols-3 gap-4">
-                        {#each [1, 2, 3, 4, 5, 6] as i}
-                            <div class="h-10 w-10 bg-white rounded-full shadow-sm flex items-center justify-center text-gray-400">
-                                <div class="h-4 w-4 bg-gray-200 rounded-sm"></div>
+                    <div class="relative">
+                        <div class="h-20 w-20 border-2 border-primary-200 rounded-full flex items-center justify-center">
+                            <div class="h-12 w-12 bg-primary-600 rounded-full flex items-center justify-center text-white text-xs font-bold">
+                                ✓
                             </div>
-                        {/each}
+                        </div>
+                        <div class="absolute -top-2 -right-2 h-6 w-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs">
+                            🔒
+                        </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Connect seamlessly with your existing providers and file systems. Enhance your workflows by interacting with internal & external data sources.
+                    Never touches patient data. Fully compliant with HIPAA, My Health My Data Act, and all privacy regulations. Built for the post-tracking pixel era.
                 </p>
             </div>
 
-            <!-- Prompt Library -->
+            <!-- Multi-Channel Attribution -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Prompt Library</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Multi-Channel Attribution</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px] space-y-2">
-                        <div class="h-2 bg-gray-100 rounded w-1/3 mb-4"></div>
-                        {#each [1, 2, 3, 4, 5] as i}
+                        <div class="h-2 bg-primary-200 rounded w-1/3 mb-4"></div>
+                        {#each [{w: '90%', c: 'bg-blue-400'}, {w: '75%', c: 'bg-purple-400'}, {w: '60%', c: 'bg-green-400'}, {w: '45%', c: 'bg-yellow-400'}, {w: '30%', c: 'bg-red-400'}] as bar}
                             <div class="flex items-center gap-2">
-                                <div class="h-2 w-2 rounded-full bg-gray-200"></div>
-                                <div class="h-1.5 bg-gray-100 rounded w-3/4"></div>
+                                <div class="h-2 w-2 rounded-full {bar.c}"></div>
+                                <div class="h-1.5 {bar.c} rounded" style="width: {bar.w}"></div>
                             </div>
                         {/each}
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Choose from our library of professionally written prompts aimed at automating your common workflows end-to-end.
+                    Track performance across all digital channels—social, search, display, CTV, and more. Understand which channels drive prescriptions and optimize accordingly.
                 </p>
             </div>
 
-            <!-- Guided Implementation -->
+            <!-- Weekly Recommendations -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Guided Implementation</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Weekly Recommendations</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="flex -space-x-2">
-                        <div class="h-10 w-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 text-xs">A</div>
-                        <div class="h-10 w-10 rounded-full bg-green-100 border-2 border-white flex items-center justify-center text-green-600 text-xs">B</div>
-                        <div class="h-10 w-10 rounded-full bg-purple-100 border-2 border-white flex items-center justify-center text-purple-600 text-xs">C</div>
+                    <div class="relative">
+                        <div class="h-20 w-20 bg-white rounded-lg shadow-sm border border-gray-200 flex flex-col items-center justify-center">
+                            <div class="text-xs text-gray-400 font-mono">WEEK</div>
+                            <div class="text-2xl font-bold text-primary-600">3</div>
+                        </div>
+                        <div class="absolute -bottom-1 -right-1 h-6 w-6 bg-primary-600 rounded-full flex items-center justify-center text-white text-xs">
+                            ↑
+                        </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    White-glove engagement and implementation with our team of ex-bankers and private equity investors.
+                    Get actionable budget optimization recommendations delivered every week. Know exactly where to increase spend and where to pull back.
                 </p>
             </div>
 
-            <!-- Custom-Trained Models -->
+            <!-- Statistical Modeling -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Custom-Trained Models</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Statistical Modeling</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="relative">
                         <!-- Tree structure visualization -->
                         <div class="flex justify-center gap-4 mb-4">
-                            <div class="h-6 w-6 border border-gray-300 bg-white rounded-sm"></div>
-                            <div class="h-6 w-6 border border-gray-300 bg-white rounded-sm"></div>
-                            <div class="h-6 w-6 border border-gray-300 bg-white rounded-sm"></div>
+                            <div class="h-6 w-6 border border-primary-300 bg-white rounded-sm flex items-center justify-center text-[8px]">📊</div>
+                            <div class="h-6 w-6 border border-primary-300 bg-white rounded-sm flex items-center justify-center text-[8px]">💊</div>
+                            <div class="h-6 w-6 border border-primary-300 bg-white rounded-sm flex items-center justify-center text-[8px]">📍</div>
                         </div>
                         <div class="flex justify-center mb-4">
-                            <div class="h-8 w-px bg-gray-300"></div>
+                            <div class="h-8 w-px bg-primary-300"></div>
                         </div>
                         <div class="flex justify-center">
-                            <div class="h-8 w-8 bg-[#0B231E] rounded flex items-center justify-center text-white text-xs">AI</div>
+                            <div class="h-8 w-8 bg-primary-600 rounded flex items-center justify-center text-white text-xs font-bold">Σ</div>
                         </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Custom-trained LLMs built for finance, using professionally labeled data tailored to the workflows and precision standards of investment banking.
+                    Advanced statistical models correlate ad spend with prescription volumes at the zip code level, providing accurate attribution without individual tracking.
                 </p>
             </div>
 
-            <!-- Governance & Permissions -->
+            <!-- Prescription Volume Integration -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Governance & Permissions</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Prescription Volume Integration</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px]">
                         <div class="flex justify-between mb-4">
-                            <div class="text-[10px] font-bold">122</div>
-                            <div class="text-[10px] font-bold">2.14</div>
+                            <div class="text-[10px] font-bold text-gray-500">ZIP</div>
+                            <div class="text-[10px] font-bold text-gray-500">Rx VOL</div>
                         </div>
                         <div class="space-y-2">
-                            <div class="h-px bg-gray-100 w-full"></div>
-                            <div class="h-1.5 bg-gray-100 rounded w-1/2"></div>
-                            <div class="h-1.5 bg-gray-100 rounded w-3/4"></div>
-                            <div class="h-1.5 bg-gray-100 rounded w-2/3"></div>
+                            <div class="flex items-center justify-between">
+                                <div class="text-[9px] text-gray-600">90210</div>
+                                <div class="h-1.5 bg-primary-200 rounded w-3/4"></div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="text-[9px] text-gray-600">10001</div>
+                                <div class="h-1.5 bg-primary-300 rounded w-2/3"></div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="text-[9px] text-gray-600">60614</div>
+                                <div class="h-1.5 bg-primary-400 rounded w-1/2"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Granular permission controls, role-based access management, comprehensive audit trails, and customizable governance policies to streamline compliance and safeguard your data.
+                    Seamlessly integrate with IQVIA, Symphony Health, and other prescription data providers. Analyze aggregate volumes by geography without accessing patient-level information.
                 </p>
             </div>
 
-            <!-- Single Tenant Deployment -->
+            <!-- Ad Spend Analytics -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Single Tenant Deployment</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Ad Spend Analytics</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="grid grid-cols-3 gap-1">
-                        {#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as i}
-                            <div class={`h-8 w-8 border border-gray-200 ${i === 5 ? 'bg-[#0B231E] flex items-center justify-center' : 'bg-white'}`}>
-                                {#if i === 5}
-                                    <div class="h-2 w-2 bg-white rounded-full"></div>
+                        {#each [
+                            {c: 'bg-blue-400'}, {c: 'bg-blue-300'}, {c: 'bg-blue-200'},
+                            {c: 'bg-purple-400'}, {c: 'bg-primary-600 flex items-center justify-center'}, {c: 'bg-green-400'},
+                            {c: 'bg-yellow-400'}, {c: 'bg-red-400'}, {c: 'bg-pink-400'}
+                        ] as box}
+                            <div class="h-8 w-8 border border-gray-200 {box.c}">
+                                {#if box.c.includes('primary-600')}
+                                    <div class="h-2 w-2 bg-white rounded-full mx-auto mt-3"></div>
                                 {/if}
                             </div>
                         {/each}
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Flexible deployment options to meet your security and infrastructure needs.
+                    Automatically collect and normalize ad spend data from all your platforms. Track performance, ROI, and attribution across your entire media mix.
                 </p>
             </div>
         </div>

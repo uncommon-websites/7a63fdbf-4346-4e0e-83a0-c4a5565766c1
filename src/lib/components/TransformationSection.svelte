@@ -6,32 +6,42 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-20">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight max-w-4xl">
-                Just as Bloomberg digitized financial data in the 1980s, <span class="font-semibold">Rogo is now transforming financial workflows.</span>
+                Privacy laws blinded pharma marketers. <span class="font-semibold">PARE brings back visibility without touching patient data.</span>
             </h2>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <!-- Left: Image/Interface -->
             <div class="relative">
-                <div class="relative rounded-lg overflow-hidden shadow-2xl bg-gray-900 aspect-[4/3]">
+                <div class="relative rounded-lg overflow-hidden shadow-2xl bg-primary-950 aspect-[4/3]">
                     <img 
-                        src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop" 
-                        alt="City buildings" 
-                        class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-overlay"
+                        src="/generated/image-close-up-of-marketing-dashboard-showing--1765569396116-1.webp" 
+                        alt="Pharmaceutical marketing attribution dashboard" 
+                        class="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-overlay"
                     />
                     
                     <!-- Floating Interface Element -->
                     <div class="absolute inset-0 flex items-center justify-center p-8">
                         <div class="bg-white rounded-lg shadow-xl w-full max-w-md p-6">
                             <div class="flex items-center gap-3 mb-4">
-                                <div class="h-8 w-8 bg-blue-600 rounded flex items-center justify-center text-white">
+                                <div class="h-8 w-8 bg-primary-600 rounded flex items-center justify-center text-white">
                                     <Database size={16} />
                                 </div>
-                                <span class="font-medium text-gray-900">Market data</span>
+                                <span class="font-medium text-gray-900">Attribution Model</span>
                             </div>
-                            <div class="space-y-2">
-                                <div class="h-2 bg-gray-100 rounded w-3/4"></div>
-                                <div class="h-2 bg-gray-100 rounded w-1/2"></div>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs text-gray-600">Ad Spend Data</span>
+                                    <div class="h-2 bg-primary-100 rounded w-24"></div>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs text-gray-600">Rx Volume (Zip)</span>
+                                    <div class="h-2 bg-primary-200 rounded w-32"></div>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs text-gray-600">Statistical Model</span>
+                                    <div class="h-2 bg-primary-300 rounded w-20"></div>
+                                </div>
                             </div>
                             
                             <!-- Arrow indicator -->
@@ -46,15 +56,15 @@
             <!-- Right: Features List -->
             <div class="space-y-12">
                 <h3 class="text-2xl font-serif text-gray-900">
-                    An Integrated, Secure Platform <br/> Built to Drive Your Firm Forward
+                    Privacy-First Attribution <br/> Built for Modern Pharma Marketing
                 </h3>
 
                 <div class="space-y-8">
                     {#each [
-                        { id: '01', title: 'All your content in one place', icon: Database },
-                        { id: '02', title: 'Transparent, auditable sources', icon: Search },
-                        { id: '03', title: 'Automate your workflows', icon: Settings },
-                        { id: '04', title: 'Proprietary document interrogation', icon: FileText }
+                        { id: '01', title: 'Aggregate data only—no patient tracking', icon: Database },
+                        { id: '02', title: 'Real-time attribution insights', icon: Search },
+                        { id: '03', title: 'Weekly budget optimization', icon: Settings },
+                        { id: '04', title: 'Zip-level prescription correlation', icon: FileText }
                     ] as feature}
                         <div class="flex items-start gap-4 group cursor-pointer">
                             <div class="flex-shrink-0 relative">

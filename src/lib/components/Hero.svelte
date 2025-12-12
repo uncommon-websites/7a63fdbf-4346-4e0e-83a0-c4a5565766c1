@@ -6,10 +6,10 @@
   <!-- Content -->
   <div class="z-10 mx-auto max-w-4xl px-4 text-center mb-16">
     <h1 class="mb-6 text-5xl md:text-6xl lg:text-7xl font-serif text-gray-900 leading-tight">
-      Stop Wasting Your Team's Time
+      Marketing Attribution Without Patient Data
     </h1>
     <p class="mx-auto mb-10 max-w-2xl text-lg text-gray-600 leading-relaxed">
-      Accelerate firm productivity, automate workflows, and unify financial data at scale with one secure platform
+      Real-time attribution and weekly budget optimization for pharma brands using aggregate data and statistical modeling—fully compliant with HIPAA and privacy laws
     </p>
     
     <div class="flex justify-center">
@@ -25,27 +25,54 @@
     </div>
   </div>
 
-  <!-- Hero Image & Search Interface -->
+  <!-- Hero Image & Dashboard Interface -->
   <div class="relative w-full max-w-7xl mx-auto px-4">
-    <div class="relative aspect-[21/9] w-full overflow-hidden rounded-lg shadow-2xl">
+    <div class="relative aspect-[21/9] w-full overflow-hidden rounded-lg shadow-2xl bg-gradient-to-br from-gray-50 to-gray-100">
       <img 
-        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" 
-        alt="Financial District" 
-        class="h-full w-full object-cover"
+        src="/generated/image-professional-pharmaceutical-marketing-te-1765569393254-0.webp" 
+        alt="Pharmaceutical marketing analytics" 
+        class="h-full w-full object-cover opacity-20"
       />
       
-      <!-- Overlay Search Bar -->
-      <div class="absolute inset-0 flex items-center justify-center bg-black/10">
-        <div class="w-full max-w-xl rounded-xl bg-white p-2 shadow-xl flex items-center gap-3 animate-fade-in-up">
-            <div class="pl-3 text-gray-400">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg>
+      <!-- Overlay Dashboard Preview -->
+      <div class="absolute inset-0 flex items-center justify-center p-8">
+        <div class="w-full max-w-4xl rounded-xl bg-white p-6 shadow-2xl animate-fade-in-up">
+            <!-- Dashboard Header -->
+            <div class="flex items-center justify-between mb-6 pb-4 border-b border-gray-100">
+                <div>
+                    <div class="text-xs font-mono uppercase tracking-widest text-gray-400 mb-1">Campaign Performance</div>
+                    <div class="text-lg font-semibold text-gray-900">Weekly Attribution Report</div>
+                </div>
+                <div class="flex items-center gap-2">
+                    <div class="px-3 py-1 bg-primary-50 text-primary-700 text-xs font-medium rounded-full">
+                        Live Data
+                    </div>
+                </div>
             </div>
-            <div class="flex-1 font-mono text-sm text-gray-800">
-                benchmark revenue estimates for AAPL <span class="animate-pulse">|</span>
+            
+            <!-- Dashboard Metrics -->
+            <div class="grid grid-cols-4 gap-4">
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <div class="text-xs text-gray-500 mb-1">Total Ad Spend</div>
+                    <div class="text-2xl font-bold text-gray-900">$2.4M</div>
+                    <div class="text-xs text-green-600 mt-1">↑ 12% vs last week</div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <div class="text-xs text-gray-500 mb-1">Attributed Rx Volume</div>
+                    <div class="text-2xl font-bold text-gray-900">8,432</div>
+                    <div class="text-xs text-green-600 mt-1">↑ 8.3% lift</div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <div class="text-xs text-gray-500 mb-1">Cost per Rx</div>
+                    <div class="text-2xl font-bold text-gray-900">$284</div>
+                    <div class="text-xs text-gray-500 mt-1">Optimized</div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <div class="text-xs text-gray-500 mb-1">Top Zip Codes</div>
+                    <div class="text-2xl font-bold text-gray-900">247</div>
+                    <div class="text-xs text-primary-600 mt-1">High performers</div>
+                </div>
             </div>
-            <button class="flex h-8 w-8 items-center justify-center rounded-lg bg-[#1B4D3E] text-white hover:bg-[#153d31] transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            </button>
         </div>
       </div>
     </div>
